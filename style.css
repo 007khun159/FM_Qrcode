@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.contianer{
+    /*ใช่กำหนดความกว้างภายในกรอบของ Con*/
+    max-width:400px ;
+    /*ปรับobject ให้เว้นจากขอบ*/
+    margin: 0 auto;
+}
+
+.card{
+    background-color: white;
+    padding: 18px;
+    border-radius: 20px;
+    text-align: center;
+    margin:1em;
+    box-shadow: 8px 8px #333;
+}
+
+.card img{
+    /*ปรับภาพให้ได้เท่ากับขนาดกรอบ*/
+    width: 100%;
+    border-radius: 12px;
+
+}
+
+.text{
+    padding: 22px 15px;
+    font-size: 15px;
+}
+
+
+.text h2{
+    font-weight: 700;
+}
+
+
+.text p{
+    padding: 15px 15px;
+    font-weight: 400;
+}
